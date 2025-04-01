@@ -41,6 +41,6 @@ model Personagem {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  @@map("personagens")
+  @@map("personagem")
 
 }
